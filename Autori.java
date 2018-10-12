@@ -5,11 +5,6 @@ public class Autori {
         Scanner sc = new Scanner(System.in);
         Autori.author(sc.nextLine());
         sc.close();
-        /* if(args.length < 1) {
-            System.err.println("no arguments provided");
-            System.exit(1);
-        }
-        Autori.author(args[0]); */
     }
 
     public static void author(String input) {
